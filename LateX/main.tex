@@ -49,22 +49,19 @@
 \date[May 2023]{May x, 2023}
 \author[Lorenzo Zanolin]{
   Lorenzo Zanolin.
-  \pdfnewline
-  \texttt{lorenzo.zanolin@spes.uniud.it}
+  \pdfnewline\texttt{lorenzo.zanolin@spes.uniud.it}
 }
 \institute{Department of Mathematics, University of Udine}
 
 \begin{document}
 
-\begin{frame}
-\titlepage
-\end{frame}
+\begin{frame}\titlepage\end{frame}
 
 \begin{frame}{Outline}
 \tableofcontents
 \end{frame}
 
-\section{Linearly separable data}
+\section{SVM over linearly separable data}
 
 \begin{frame}{Vector Space}
     
@@ -117,16 +114,16 @@
     \only<1->{For convenience, we can rewrite equations using \textit{vectorization} notation.  
     \begin{equation}
         \begin{cases}
-          {b}^Tt + a = 0\\
-          {b}^Tt + a = \pm1\\
+          {b}^{T}t + a = 0\\
+          {b}^{T}t + a = \pm1\\
         \end{cases}\
     \end{equation}}
     
-    \uncover<2->{Intuitively, we can define the \textit{margin} of the two support vectors as the distance between them. 
-    \vspace{5mm}} %5mm vertical space
-    \uncover<3->{\\We can consider two points $x_1,x_2$ that lie respectively on the two support vectors, their distance is~$\lambda\lVert b \rVert = \frac{2}{\sqrt{{b}^Tb}}$. 
+    \uncover<2->{Intuitively, we can define the \textit{margin} of the two support vectors as the distance between them.\\}
     \vspace{5mm} %5mm vertical space
-    \\SVM are used to find the \textit{maximum margin linear classifier}, thus we want to maximize the margin.}
+    \uncover<3->{We can consider two points $x_1,x_2$ that lie respectively on the two support vectors, their distance is~$\lambda\lVert b \rVert = \frac{2}{\sqrt{{b}^{T}b}}$.\\ 
+    \vspace{5mm} %5mm vertical space
+    SVM are used to find the \textit{maximum margin linear classifier}, thus we want to maximize the margin.}
      
 \end{frame}
 
@@ -135,30 +132,30 @@
     given a document $x$ belonging to class $y$ the decision boundary behave the following:
     \begin{equation}
         \begin{cases}
-          {b}^Tx + a \geq 1\qquad if\ y = 1\\
-          {b}^Tx + a \leq -1\qquad if\ y = -1\\
+          {b}^{T}x + a \geq 1\qquad if\ y = 1\\
+          {b}^{T}x + a \leq -1\qquad if\ y = -1\\
         \end{cases}\
     \end{equation}}
     \uncover<2->{We can define the \textit{cost function} as a system of equations.
     \begin{equation}
         \begin{cases}
-          \min_{b,a} \frac{\sqrt{{b}^Tb}}{2}\\
-          subject\ to \quad y_i(b^Tx_i + a)\geq1 \quad \forall x_i\\
+          \min_{b,a} \frac{\sqrt{{b}^{T}b}}{2}\\
+          subject\ to \quad y_i(b^{T}x_i + a)\geq1 \quad \forall x_i\\
         \end{cases}\
     \end{equation}}
      
 \end{frame}
 
 \begin{frame}{Soft-Margin}
-    \only<1-3>{In real world problem it is not likely to get an exactly separate line dividing the data within the space. It would be better for the smooth boundary to ignore few data points than be curved or go in loops, around the outliers.}
+    \only<1->{In real world problem it is not likely to get an exactly separate line dividing the data within the space. It would be better for the smooth boundary to ignore few data points than be curved or go in loops, around the outliers.\\}
     \vspace{5mm}
-    \uncover<2-3>{\\So, we will use \textit{slack variables} to introduce a penalty for each misclassified point.}
+    \uncover<2->{So, we will use \textit{slack variables} to introduce a penalty for each misclassified point.\\}
     \vspace{5mm}
-    \uncover<3>{\\The new cost function will be
+    \uncover<3>{The new cost function will be
         \begin{equation}
             \begin{cases}
-              \min_{b,a} \frac{\sqrt{{b}^Tb}}{2} + C  \sum_{i} \xi_i\\
-              subject\ to \quad y_i(b^Tx_i + a)\geq1-\xi_i\quad and\ \xi_i>0 \quad \forall x_i\\
+              \min_{b,a} \frac{\sqrt{{b}^{T}b}}{2} + C  \sum_{i} \xi_i\\
+              subject\ to \quad y_i(b^{T}x_i + a)\geq1-\xi_i\quad and\ \xi_i>0 \quad \forall x_i\\
             \end{cases}\
         \end{equation}}
 \end{frame}
@@ -167,8 +164,8 @@
     \only<1->{The larger is C the stricter the classification is, since a larger C will give more evidence to slack variables.
         \begin{equation}
                 \begin{cases}
-                  \min_{b,a} \frac{\sqrt{{b}^Tb}}{2} + C  \sum_{i} \xi_i\\
-                  subject\ to \quad y_i(b^Tx_i + a)\geq1-\xi_i\quad and\ \xi_i>0 \quad \forall x_i\\
+                  \min_{b,a} \frac{\sqrt{{b}^{T}b}}{2} + C  \sum_{i} \xi_i\\
+                  subject\ to \quad y_i(b^{T}x_i + a)\geq1-\xi_i\quad and\ \xi_i>0 \quad \forall x_i\\
                 \end{cases}\
             \end{equation}
     }
@@ -179,7 +176,7 @@
     }
 \end{frame}
 
-\section{Non linearly separable data}
+\section{SVM over non linearly separable data}
 
 \begin{frame}{Non linearly separable data}
     \only<1->{What if our data is not linearly separable?}
@@ -196,15 +193,36 @@
 
 \begin{frame}{Kernel Trick}
     
-    \only<1->{Here \textit{Kernel Trick} comes handy.} 
+    \uncover<1->{Consider the function $\phi : \mathbb{R}^3 \mapsto \mathbb{R}^{10}$ used to map points in a new vector space. Calculating the \textit{similarity} ${\phi(x_i)}^T\phi(x_j)$ between each point may be intractable.\\}
     \vspace{5mm}
-    \uncover<2->{\\Consider the function $\phi : \mathbb{R^3} \mapsto \mathbb{R^{10}}$}
+    \uncover<2->{Here \textit{Kernel Trick} comes handy.\\}
     \vspace{5mm}
-    \uncover<3>{\\It allows us to operate in the original feature space without computing the coordinates of the data in a higher dimensional space.}
+    \uncover<3->{It consists of a simple linear algebra reformulation, 
+        \begin{equation}
+            {\phi(x_i)}^{T}\phi(x_j) = K(x_i,x_j) = {(1+{x_i}^{T}x_j)}^2.
+        \end{equation}\\
+    }
+    
+    \uncover<4->{Instead of doing the complex computations in the 10-dimensional space, we reach the same result within the 3-dimensional space by calculating the dot product.}
+
+
+    \vspace{5mm}
     
 \end{frame}
 
+\begin{frame}{Gaussian Kernel}
+    \only<1->{There are lots of Kernel functions, an example is the \textit{Gaussian}.\\}
+    \vspace{5mm}
+    \uncover<2->{The idea behind is to use all $n$ training points as \textit{landmarks}.\\ Then we can calculate the similarities of each point and all the landmarks.\\}
+    \uncover<3->{\begin{equation}
+        \forall l_i\ similarity(x,l^{(i)}) = \exp(-\frac{{\lVert x - l^{(i)} \rVert}^2}{2\sigma^{2}})
+    \end{equation}\\}
+    \vspace{5mm}
+    \uncover<4>{The result will be a mapping for each point in a n-dimensional space. Finally, we can identify an hyperplane which can divide correctly the two classes of points.}
 
+\end{frame}
 
+\section{SVM use in IR}
+    
 
 \end{document}
