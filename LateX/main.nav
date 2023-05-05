@@ -28,8 +28,13 @@
 \headcommand {\beamer@framepages {22}{25}}
 \headcommand {\slideentry {2}{0}{3}{26/29}{}{0}}
 \headcommand {\beamer@framepages {26}{29}}
-\headcommand {\beamer@partpages {1}{29}}
-\headcommand {\beamer@subsectionpages {30}{29}}
-\headcommand {\beamer@sectionpages {30}{29}}
-\headcommand {\beamer@documentpages {29}}
-\headcommand {\gdef \inserttotalframenumber {12}}
+\headcommand {\beamer@sectionpages {19}{29}}
+\headcommand {\beamer@subsectionpages {19}{29}}
+\headcommand {\sectionentry {3}{SVM use in IR}{30}{SVM use in IR}{0}}
+\headcommand {\slideentry {3}{0}{1}{30/30}{}{0}}
+\headcommand {\beamer@framepages {30}{30}}
+\headcommand {\beamer@partpages {1}{30}}
+\headcommand {\beamer@subsectionpages {30}{30}}
+\headcommand {\beamer@sectionpages {30}{30}}
+\headcommand {\beamer@documentpages {30}}
+\headcommand {\gdef \inserttotalframenumber {13}}
