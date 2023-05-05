@@ -1,0 +1,2 @@
+\beamer@sectionintoc {1}{Linearly separable data}{3}{0}{1}
+\beamer@sectionintoc {2}{Non linearly separable data}{19}{0}{2}
