@@ -242,22 +242,22 @@
 \end{frame}
 
 \begin{frame}{K-means}
-    \only<1->{The aim is to create clusters that contain similar documents. Given a training set ${x^{(1)},x^{(2)},\ldots,x^{(m)}}$, the algorithm used is the following:\\}
+    \only<1->{The aim is to create clusters that contain \textit{similar documents}. Given a training set ${x^{(1)},x^{(2)},\ldots,x^{(m)}}$, the algorithm used is the following:\\}
     \uncover<2->{
         \begin{algorithm}[H]\small
-            \caption{K-Means}
+            %\caption{K-Means}
             \begin{algorithmic}[1]
-              \State $K\gets randomValue$  
-              \Procedure{K-Means}{$K$}\Comment{}
-                \State \texttt{initialize\ K\ centroids in random positions} 
-                \State \textbf{loop\{}
+              \State $K\gets randomValue$  \Comment{multiple K will be tried}
+              \Procedure{K-Means}{$K$}
+                \State \texttt{initialize cluster centroids $\mu_1,\ldots,\mu_k$ ramdomly.} 
+                \State \textbf{repeat until convergence\{}
                     \Indent
                     \For{$i \gets 1$ to $m$}
-                        \State \texttt{Calculate the closest centroid to $x^{(i)}$}
+                        \State $c^{(i)}=arg\ min_{j} \lVert x^{(i)} - \mu_j \rVert$ \Comment{Closest centroid to $x^{(i)}$}
                     \EndFor
                     
                     \For{$k \gets 1$ to $K$}
-                        \State \texttt{Calculate the new centroid of cluster $k$}
+                        \State $\mu_j = \frac{\sum_{i=1}{m} 1\{c^{(i)}=j\}x^{(i)}}{\sum_{i=1}{m} 1\{c^{(i)}=j\}}$ \Comment{New centroid of cluster $k$}
                     \EndFor
                     \EndIndent
                 \State \textbf{ \} }
@@ -268,7 +268,11 @@
 \end{frame}
 
 \begin{frame}{Visual explanation}
-    
+    \only<1>{
+        \begin{figure}[]
+            \includegraphics[scale=0.27]{graphics/k-means.png}
+        \end{figure}
+    }
 \end{frame}
 
 \end{document}

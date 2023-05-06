@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.20)  6 MAY 2023 12:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.20)  6 MAY 2023 12:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1785,18 +1785,23 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 268--268
 [33
 
 ]
+<graphics/k-means.png, id=268, 1011.78pt x 678.535pt>
+File: graphics/k-means.png Graphic file (type png)
+<use graphics/k-means.png>
+Package pdftex.def Info: graphics/k-means.png  used on input line 276.
+(pdftex.def)             Requested size: 273.18425pt x 183.2069pt.
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 272.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 276.
 (pdftex.def)             Requested size: 24.18501pt x 24.17917pt.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 272--272
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 276--276
 [][]  
  []
 
 [34
 
-]
+ <./graphics/k-means.png>]
 \tf@nav=\write7
 \openout7 = `main.nav'.
 
@@ -1814,32 +1819,35 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33927 strings out of 478268
- 675493 string characters out of 5846347
- 1337182 words of memory out of 5000000
- 51424 multiletter control sequences out of 15000+600000
- 508683 words of font info for 90 fonts, out of 8000000 for 9000
+ 33939 strings out of 478268
+ 675690 string characters out of 5846347
+ 1338182 words of memory out of 5000000
+ 51432 multiletter control sequences out of 15000+600000
+ 510689 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,13n,122p,737b,801s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
 exlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/2022/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2022/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-di
+mf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/local/texlive/2022/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2022/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2022/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2022/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/font
-s/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2022/texmf-dist/fonts/
-type1/public/lm/lmvtt10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/pub
-lic/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1
-/urw/palatino/uplb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/pa
-latino/uplr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/palatino/
-uplri8a.pfb>
-Output written on main.pdf (34 pages, 1079359 bytes).
+s/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2022/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2022/texmf-dist/fonts/ty
+pe1/public/lm/lmvtt10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/publi
+c/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/u
+rw/palatino/uplb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/pala
+tino/uplr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/palatino/up
+lri8a.pfb>
+Output written on main.pdf (34 pages, 1299021 bytes).
 PDF statistics:
- 346 PDF objects out of 1000 (max. 8388607)
- 264 compressed objects within 3 object streams
+ 363 PDF objects out of 1000 (max. 8388607)
+ 273 compressed objects within 3 object streams
  72 named destinations out of 1000 (max. 500000)
- 107 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 112 words of extra memory for PDF output out of 10000 (max. 10000000)
 
