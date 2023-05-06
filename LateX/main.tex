@@ -28,6 +28,7 @@
 \usetheme{uniud}
 \graphicspath{ {./graphics/} }
 \usepackage{mathtools}
+
 %%% Bibliography
 \usepackage[style=authoryear,backend=biber]{biblatex}
 \addbibresource{bibliography.bib}
@@ -230,7 +231,7 @@
 \end{frame}
 
 \section{SVM use in IR}
-\begin{frame}{Hybrid use}
+\begin{frame}{Pratical application}
     \only<1->{An hybrid technique used in the IR field will be presented; it uses two components: 
     \begin{itemize}
         \item \textbf{K-Means}: model for \textit{unsupervised classification};
@@ -273,6 +274,58 @@
             \includegraphics[scale=0.29]{graphics/k-means.png}
         \end{figure}
     }
+\end{frame}
+
+\begin{frame}{Hybrid IR System}
+    \only<1->{The proposed system can be summarized by the following figure:}
+    \uncover<2->{
+        \begin{figure}[]
+            \includegraphics[scale=0.29]{graphics/hybSys entire.png}
+        \end{figure}
+    }
+
+\end{frame}
+
+\begin{frame}{Documents clustering}
+    \only<1->{
+        \begin{figure}[!T]
+            \includegraphics[scale=0.2]{graphics/hybSys top.png}
+        \end{figure}
+    }
+    \uncover<2->{
+        First part consist of text pre-processing, followed by a vector representation of each document.\\ Next, there is the clustering phase.\\
+    }
+    \vspace{5mm}
+    \uncover<3->{
+        Using \textit{k-means}, documents are classified into classes of similar vectors according to the retained terms and the similarity used.\\
+    }
+    \vspace{5mm}
+    \uncover<3->{
+        Finally, terms are classified as \textit{Trivial, Decisive} or \textit{Standard}. Only the last two are preserved and used as indicator of the class.
+    }
+    \vspace{5mm}
+
+\end{frame}
+
+\begin{frame}{Queries classification}
+
+    \only<1->{
+        \begin{figure}[]
+            \includegraphics[scale=0.18]{graphics/hybSys bottom.png}
+        \end{figure}
+    }
+    \uncover<2->{
+        A given user query is first stemmed and represented by a vector (as for documents).\\  
+    }
+    \vspace{3.5mm}
+    \uncover<3->{Then, SVM are used to classify queries; for each cluster $C_i$ there will be an $SVM_i$ responsible of determining the membership of each query $q_j$ to it.\\}
+    \vspace{3.5mm}
+    \uncover<4->{So, this process allows the selection of documents from the returned class to return first. \cite{article1}}
+
+\end{frame}
+
+\begin{frame}{References}
+    \printbibliography[title={References}]
 \end{frame}
 
 \end{document}
