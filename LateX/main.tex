@@ -22,6 +22,9 @@
 \usepackage[utf8]{inputenc}
 \usepackage{verbatim}
 \usepackage{amsmath}
+\usepackage{algpseudocode}
+\usepackage{algorithm}% http://ctan.org/pkg/algorithm
+
 \usetheme{uniud}
 \graphicspath{ {./graphics/} }
 \usepackage{mathtools}
@@ -43,6 +46,10 @@
 \newcommand{\pdfnewline}{\texorpdfstring{\newline}{ }} 
 % Fill the vertical space in a slide (to put text at the bottom)
 \newcommand{\framefill}{\vskip0pt plus 1filll}
+
+\algdef{SE}[SUBALG]{Indent}{EndIndent}{}{\algorithmicend\ }%
+\algtext*{Indent}
+\algtext*{EndIndent}
 
 
 \title[Support Vector Machines]{SVM and their use in IR}
@@ -224,6 +231,44 @@
 
 \section{SVM use in IR}
 \begin{frame}{Hybrid use}
+    \only<1->{An hybrid technique used in the IR field will be presented; it uses two components: 
+    \begin{itemize}
+        \item \textbf{K-Means}: model for \textit{unsupervised classification};
+        \item \textbf{SVM}: model for \textit{supervised classification}.
+    \end{itemize}
+    }
+    \vspace{5mm}
+    \uncover<2->{K-means algorithm is one of the most used clustering algorithms. It consists of partitioning unlabeled objects into k classes, where k is no predefined.\\ A brief explanation will follow.}
+\end{frame}
+
+\begin{frame}{K-means}
+    \only<1->{The aim is to create clusters that contain similar documents. Given a training set ${x^{(1)},x^{(2)},\ldots,x^{(m)}}$, the algorithm used is the following:\\}
+    \uncover<2->{
+        \begin{algorithm}[H]\small
+            \caption{K-Means}
+            \begin{algorithmic}[1]
+              \State $K\gets randomValue$  
+              \Procedure{K-Means}{$K$}\Comment{}
+                \State \texttt{initialize\ K\ centroids in random positions} 
+                \State \textbf{loop\{}
+                    \Indent
+                    \For{$i \gets 1$ to $m$}
+                        \State \texttt{Calculate the closest centroid to $x^{(i)}$}
+                    \EndFor
+                    
+                    \For{$k \gets 1$ to $K$}
+                        \State \texttt{Calculate the new centroid of cluster $k$}
+                    \EndFor
+                    \EndIndent
+                \State \textbf{ \} }
+              \EndProcedure
+            \end{algorithmic}
+          \end{algorithm}
+    }
+\end{frame}
+
+\begin{frame}{Visual explanation}
+    
 \end{frame}
 
 \end{document}

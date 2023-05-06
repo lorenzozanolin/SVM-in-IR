@@ -31,10 +31,14 @@
 \headcommand {\beamer@sectionpages {19}{29}}
 \headcommand {\beamer@subsectionpages {19}{29}}
 \headcommand {\sectionentry {3}{SVM use in IR}{30}{SVM use in IR}{0}}
-\headcommand {\slideentry {3}{0}{1}{30/30}{}{0}}
-\headcommand {\beamer@framepages {30}{30}}
-\headcommand {\beamer@partpages {1}{30}}
-\headcommand {\beamer@subsectionpages {30}{30}}
-\headcommand {\beamer@sectionpages {30}{30}}
-\headcommand {\beamer@documentpages {30}}
-\headcommand {\gdef \inserttotalframenumber {13}}
+\headcommand {\slideentry {3}{0}{1}{30/31}{}{0}}
+\headcommand {\beamer@framepages {30}{31}}
+\headcommand {\slideentry {3}{0}{2}{32/33}{}{0}}
+\headcommand {\beamer@framepages {32}{33}}
+\headcommand {\slideentry {3}{0}{3}{34/34}{}{0}}
+\headcommand {\beamer@framepages {34}{34}}
+\headcommand {\beamer@partpages {1}{34}}
+\headcommand {\beamer@subsectionpages {30}{34}}
+\headcommand {\beamer@sectionpages {30}{34}}
+\headcommand {\beamer@documentpages {34}}
+\headcommand {\gdef \inserttotalframenumber {15}}
