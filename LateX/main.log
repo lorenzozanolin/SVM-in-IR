@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.20)  6 MAY 2023 12:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.20)  6 MAY 2023 12:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1789,7 +1789,7 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 268--268
 File: graphics/k-means.png Graphic file (type png)
 <use graphics/k-means.png>
 Package pdftex.def Info: graphics/k-means.png  used on input line 276.
-(pdftex.def)             Requested size: 273.18425pt x 183.2069pt.
+(pdftex.def)             Requested size: 293.40868pt x 196.77011pt.
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
 Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 276.
@@ -1844,7 +1844,7 @@ c/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/u
 rw/palatino/uplb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/pala
 tino/uplr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/palatino/up
 lri8a.pfb>
-Output written on main.pdf (34 pages, 1299021 bytes).
+Output written on main.pdf (34 pages, 1299023 bytes).
 PDF statistics:
  363 PDF objects out of 1000 (max. 8388607)
  273 compressed objects within 3 object streams
