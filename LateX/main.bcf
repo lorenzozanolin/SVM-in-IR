@@ -2344,11 +2344,25 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">bibliography.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">article1</bcf:citekey>
-    <bcf:citekey order="2">article1</bcf:citekey>
-    <bcf:citekey order="3">article1</bcf:citekey>
-    <bcf:citekey order="4">article1</bcf:citekey>
-    <bcf:citekey order="5">article1</bcf:citekey>
+    <bcf:citekey order="1">tut</bcf:citekey>
+    <bcf:citekey order="1">svm</bcf:citekey>
+    <bcf:citekey order="2">tut</bcf:citekey>
+    <bcf:citekey order="2">svm</bcf:citekey>
+    <bcf:citekey order="3">tut</bcf:citekey>
+    <bcf:citekey order="3">svm</bcf:citekey>
+    <bcf:citekey order="4">kernel</bcf:citekey>
+    <bcf:citekey order="5">kernel</bcf:citekey>
+    <bcf:citekey order="6">kernel</bcf:citekey>
+    <bcf:citekey order="7">kernel</bcf:citekey>
+    <bcf:citekey order="8">kmeans</bcf:citekey>
+    <bcf:citekey order="9">kmeans</bcf:citekey>
+    <bcf:citekey order="10">hybrid</bcf:citekey>
+    <bcf:citekey order="11">hybrid</bcf:citekey>
+    <bcf:citekey order="12">tut</bcf:citekey>
+    <bcf:citekey order="13">svm</bcf:citekey>
+    <bcf:citekey order="14">kernel</bcf:citekey>
+    <bcf:citekey order="15">kmeans</bcf:citekey>
+    <bcf:citekey order="16">hybrid</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

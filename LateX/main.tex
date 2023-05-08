@@ -131,7 +131,7 @@
     \vspace{5mm} %5mm vertical space
     \uncover<3->{We can consider two points $x_1,x_2$ that lie respectively on the two support vectors, their distance is~$\lambda\lVert b \rVert = \frac{2}{\sqrt{{b}^{T}b}}$.\\ 
     \vspace{5mm} %5mm vertical space
-    SVM are used to find the \textit{maximum margin linear classifier}, thus we want to maximize the margin.}
+    SVM \cite{tut,svm} are used to find the \textit{maximum margin linear classifier}, thus we want to maximize the margin.}
      
 \end{frame}
 
@@ -203,7 +203,7 @@
     
     \uncover<1->{Consider the function $\phi : \mathbb{R}^3 \mapsto \mathbb{R}^{10}$ used to map points in a new vector space. Calculating the \textit{similarity} ${\phi(x_i)}^T\phi(x_j)$ between each point may be intractable.\\}
     \vspace{5mm}
-    \uncover<2->{Here \textit{Kernel Trick} comes handy.\\}
+    \uncover<2->{Here \textit{Kernel Trick} \cite{kernel} comes handy.\\}
     \vspace{5mm}
     \uncover<3->{It consists of a simple linear algebra reformulation, 
         \begin{equation}
@@ -243,7 +243,7 @@
 \end{frame}
 
 \begin{frame}{K-means}
-    \only<1->{The aim is to create clusters that contain \textit{similar documents}. Given a training set ${x^{(1)},x^{(2)},\ldots,x^{(m)}}$, the algorithm used is the following:\\}
+    \only<1->{The aim is to create clusters that contain \textit{similar documents}. Given a training set ${x^{(1)},x^{(2)},\ldots,x^{(m)}}$, the algorithm \cite{kmeans} used is the following:\\}
     \uncover<2->{
         \begin{algorithm}[H]\small
             %\caption{K-Means}
@@ -277,7 +277,7 @@
 \end{frame}
 
 \begin{frame}{Hybrid IR System}
-    \only<1->{The proposed system can be summarized by the following figure:}
+    \only<1->{The proposed system \cite{hybrid} can be summarized by the following figure:}
     \uncover<2->{
         \begin{figure}[]
             \includegraphics[scale=0.29]{graphics/hybSys entire.png}
@@ -320,7 +320,7 @@
     \vspace{3.5mm}
     \uncover<3->{Then, SVM are used to classify queries; for each cluster $C_i$ there will be an $SVM_i$ responsible of determining the membership of each query $q_j$ to it.\\}
     \vspace{3.5mm}
-    \uncover<4->{So, this process allows the selection of documents from the returned class to return first. \cite{article1}}
+    \uncover<4->{So, this process allows the selection of documents from the returned class to return first.}
 
 \end{frame}
 
