@@ -1,0 +1,212 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{svm}{inbook}{}
+      \name{author}{2}{}{%
+        {{hash=b643588b4a53ed47702d3277b6de83a9}{%
+           family={Cristianini},
+           familyi={C\bibinitperiod},
+           given={Nello},
+           giveni={N\bibinitperiod}}}%
+        {{hash=8feae4ec394a5f6905c74b1a7abff875}{%
+           family={Shawe-Taylor},
+           familyi={S\bibinithyphendelim T\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{95272ad59aaf2ecba8126f86cda4f3d6}
+      \strng{fullhash}{95272ad59aaf2ecba8126f86cda4f3d6}
+      \strng{bibnamehash}{95272ad59aaf2ecba8126f86cda4f3d6}
+      \strng{authorbibnamehash}{95272ad59aaf2ecba8126f86cda4f3d6}
+      \strng{authornamehash}{95272ad59aaf2ecba8126f86cda4f3d6}
+      \strng{authorfullhash}{95272ad59aaf2ecba8126f86cda4f3d6}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{An Introduction to Support Vector Machines and Other Kernel-based Learning Methods}
+      \field{title}{Support Vector Machines}
+      \field{year}{2000}
+      \field{pages}{93\bibrangedash 124}
+      \range{pages}{32}
+      \verb{doi}
+      \verb 10.1017/CBO9780511801389.008
+      \endverb
+    \endentry
+    \entry{tut}{article}{}
+      \name{author}{1}{}{%
+        {{hash=604e141c6a1496939683b3cd2de23a67}{%
+           family={Jakkula},
+           familyi={J\bibinitperiod},
+           given={Vikramaditya},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{604e141c6a1496939683b3cd2de23a67}
+      \strng{fullhash}{604e141c6a1496939683b3cd2de23a67}
+      \strng{bibnamehash}{604e141c6a1496939683b3cd2de23a67}
+      \strng{authorbibnamehash}{604e141c6a1496939683b3cd2de23a67}
+      \strng{authornamehash}{604e141c6a1496939683b3cd2de23a67}
+      \strng{authorfullhash}{604e141c6a1496939683b3cd2de23a67}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{School of EECS, Washington State University}
+      \field{number}{2.5}
+      \field{title}{Tutorial on support vector machine (svm)}
+      \field{volume}{37}
+      \field{year}{2006}
+      \field{pages}{3}
+      \range{pages}{1}
+    \endentry
+    \entry{hybrid}{article}{}
+      \name{author}{3}{}{%
+        {{hash=0e3cd2cd850c05621ff6761b03705005}{%
+           family={Khalifi},
+           familyi={K\bibinitperiod},
+           given={Hamid},
+           giveni={H\bibinitperiod}}}%
+        {{hash=9f46144292e86bdd9e3b1330e9586652}{%
+           family={Elqadi},
+           familyi={E\bibinitperiod},
+           given={Abderrahim},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9ae7eb50329de3dcec06b67583138db6}{%
+           family={Ghanou},
+           familyi={G\bibinitperiod},
+           given={Youssef},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{5662ca83bb1bc3007a06618684d80c89}
+      \strng{fullhash}{5662ca83bb1bc3007a06618684d80c89}
+      \strng{bibnamehash}{5662ca83bb1bc3007a06618684d80c89}
+      \strng{authorbibnamehash}{5662ca83bb1bc3007a06618684d80c89}
+      \strng{authornamehash}{5662ca83bb1bc3007a06618684d80c89}
+      \strng{authorfullhash}{5662ca83bb1bc3007a06618684d80c89}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Procedia Computer Science}
+      \field{title}{Support vector machines for a new hybrid information retrieval system}
+      \field{volume}{127}
+      \field{year}{2018}
+      \field{pages}{139\bibrangedash 145}
+      \range{pages}{7}
+    \endentry
+    \entry{kernel}{article}{}
+      \name{author}{7}{}{%
+        {{hash=6cc176cec9b972a477a78a329baae9c1}{%
+           family={Scholkopf},
+           familyi={S\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=24640c8202bbab44a755c0622dd39046}{%
+           family={Mika},
+           familyi={M\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=167dfedfa64097a597226f477da22c44}{%
+           family={Burges},
+           familyi={B\bibinitperiod},
+           given={C.J.C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=11175a31c30df87545cf8a7fea6dbf77}{%
+           family={Knirsch},
+           familyi={K\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=cc8e2cc703ae02a33101a4c85a394255}{%
+           family={Muller},
+           familyi={M\bibinitperiod},
+           given={K.-R.},
+           giveni={K\bibinithyphendelim R\bibinitperiod}}}%
+        {{hash=735571c3115fe9b36031057f1e0f244e}{%
+           family={Ratsch},
+           familyi={R\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=2a09623d007a5ee70c5296e19729e60a}{%
+           family={Smola},
+           familyi={S\bibinitperiod},
+           given={A.J.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{22b4e3a071de6848b44271befeebbf71}
+      \strng{fullhash}{9486d5aada30175144a785b370ea8476}
+      \strng{bibnamehash}{22b4e3a071de6848b44271befeebbf71}
+      \strng{authorbibnamehash}{22b4e3a071de6848b44271befeebbf71}
+      \strng{authornamehash}{22b4e3a071de6848b44271befeebbf71}
+      \strng{authorfullhash}{9486d5aada30175144a785b370ea8476}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Neural Networks}
+      \field{title}{Input space versus feature space in kernel-based methods}
+      \field{year}{1999}
+      \verb{doi}
+      \verb 10.1109/72.788641
+      \endverb
+    \endentry
+    \entry{kmeans}{article}{}
+      \name{author}{2}{}{%
+        {{hash=facda63ebde26a940d44851b8801b7a2}{%
+           family={Sinaga},
+           familyi={S\bibinitperiod},
+           given={Kristina\bibnamedelima P.},
+           giveni={K\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=9cfa603ce0a1425bf4573b5932deba47}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Miin-Shen},
+           giveni={M\bibinithyphendelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{bc8a2e1768c853aebaf0864841486f5c}
+      \strng{fullhash}{bc8a2e1768c853aebaf0864841486f5c}
+      \strng{bibnamehash}{bc8a2e1768c853aebaf0864841486f5c}
+      \strng{authorbibnamehash}{bc8a2e1768c853aebaf0864841486f5c}
+      \strng{authornamehash}{bc8a2e1768c853aebaf0864841486f5c}
+      \strng{authorfullhash}{bc8a2e1768c853aebaf0864841486f5c}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Access}
+      \field{title}{Unsupervised K-Means Clustering Algorithm}
+      \field{volume}{8}
+      \field{year}{2020}
+      \field{pages}{80716\bibrangedash 80727}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1109/ACCESS.2020.2988796
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
