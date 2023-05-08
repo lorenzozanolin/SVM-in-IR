@@ -30,7 +30,7 @@
 \usepackage{mathtools}
 
 %%% Bibliography
-\usepackage[style=authoryear,backend=biber]{biblatex}
+\usepackage[style=numeric,backend=biber]{biblatex}
 \addbibresource{bibliography.bib}
 
 % Author names in publication list are consistent 
@@ -250,7 +250,7 @@
             \begin{algorithmic}[1]
               \State $K\gets randomValue$  \Comment{multiple K will be tried}
               \Procedure{K-Means}{$K$}
-                \State \texttt{initialize cluster centroids $\mu_1,\ldots,\mu_k$ ramdomly.} 
+                \State \texttt{initialize cluster centroids $\mu_1,\ldots,\mu_k$ randomly.} 
                 \State \textbf{repeat until convergence\{}
                     \Indent
                     \For{$i \gets 1$ to $m$}
@@ -325,7 +325,7 @@
 \end{frame}
 
 \begin{frame}{References}
-    %\printbibliography[title={References}]
+    \printbibliography
 \end{frame}
 
 \end{document}

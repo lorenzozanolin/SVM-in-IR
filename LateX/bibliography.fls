@@ -1,0 +1,6 @@
+PWD /Users/lorenzozanolin/Library/Mobile Documents/com~apple~CloudDocs/Università/Artifical Intelligence & Cybersecurity/Secondo periodo/Udine/Information Retrieval/Information Retrieval Seminar/LateX
+INPUT /usr/local/texlive/2022/texmf.cnf
+INPUT /usr/local/texlive/2022/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2022/texmf-var/web2c/pdftex/latex.fmt
+INPUT bibliography.bib
+OUTPUT bibliography.log

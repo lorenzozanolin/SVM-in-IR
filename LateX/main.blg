@@ -1,0 +1,17 @@
+[0] Config.pm:307> INFO - This is Biber 2.17
+[0] Config.pm:310> INFO - Logfile is 'main.blg'
+[66] biber-darwin:340> INFO - === Lun Mag  8, 2023, 16:14:58
+[80] Biber.pm:418> INFO - Reading 'main.bcf'
+[162] Biber.pm:972> INFO - Found 1 citekeys in bib section 0
+[174] Biber.pm:4383> INFO - Processing section 0
+[183] Biber.pm:4574> INFO - Looking for bibtex file 'bibliography.bib' for section 0
+[184] bibtex.pm:1713> INFO - LaTeX decoding ...
+[188] bibtex.pm:1518> INFO - Found BibTeX data source 'bibliography.bib'
+[217] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[218] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[218] Biber.pm:4203> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[218] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[219] bbl.pm:654> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[219] bbl.pm:757> INFO - Output to main.bbl
+[220] Biber.pm:130> WARN - legacy year field '0 BBY' in entry 'article1' is not an integer - this will probably not sort properly.
+[220] Biber.pm:132> INFO - WARNINGS: 1

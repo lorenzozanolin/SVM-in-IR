@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.20)  6 MAY 2023 17:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.20)  8 MAY 2023 16:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -954,7 +954,7 @@ Package biblatex Info: ... file 'blx-dm.def' found.
 File: blx-dm.def 2022/02/02 v3.17 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
-Package biblatex Info: ... file 'authoryear.dbx' not found.
+Package biblatex Info: ... file 'numeric.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@afterword=\count401
@@ -1064,11 +1064,11 @@ File: biblatex.def 2022/02/02 v3.17 biblatex compatibility (PK/MW)
 \biburllcskip=\muskip21
 \c@smartand=\count477
 )
-Package biblatex Info: Trying to load bibliography style 'authoryear'...
-Package biblatex Info: ... file 'authoryear.bbx' found.
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/bbx/authoryear.bbx
-File: authoryear.bbx 2022/02/02 v3.17 biblatex bibliography style (PK/MW)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx
+File: numeric.bbx 2022/02/02 v3.17 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
@@ -1077,18 +1077,22 @@ File: standard.bbx 2022/02/02 v3.17 biblatex bibliography style (PK/MW)
 \c@bbx:relatedcount=\count478
 \c@bbx:relatedtotal=\count479
 ))
-Package biblatex Info: Trying to load citation style 'authoryear'...
-Package biblatex Info: ... file 'authoryear.cbx' found.
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
 
-(/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/cbx/authoryear.cbx
-File: authoryear.cbx 2022/02/02 v3.17 biblatex citation style (PK/MW)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/biblatex/cbx/numeric.cbx
+File: numeric.cbx 2022/02/02 v3.17 biblatex citation style (PK/MW)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
 Package biblatex Info: Redefining '\footcitetext'.
 Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
 Package biblatex Info: Redefining '\textcite'.
 Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
 )
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
@@ -1317,28 +1321,28 @@ Package biblatex Info: Automatic encoding selection.
 \openout5 = `main.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'main.bbl' not found.
+Package biblatex Info: ... file 'main.bbl' found.
 
-No file main.bbl.
+(./main.bbl)
 Package biblatex Info: Reference section=0 on input line 64.
 Package biblatex Info: Reference segment=0 on input line 64.
-(./main.nav)
+ (./main.nav)
 LaTeX Font Info:    Trying to load font information for T1+lmvtt on input line 
 66.
- (/usr/local/texlive/2022/texmf-dist/tex/latex/lm/t1lmvtt.fd
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/lm/t1lmvtt.fd
 File: t1lmvtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-<graphics/halfLogo.pdf, id=25, 245.2885pt x 406.51875pt>
+<graphics/halfLogo.pdf, id=13, 245.2885pt x 406.51875pt>
 File: graphics/halfLogo.pdf Graphic file (type pdf)
 <use graphics/halfLogo.pdf>
 Package pdftex.def Info: graphics/halfLogo.pdf  used on input line 66.
 (pdftex.def)             Requested size: 170.71652pt x 282.93599pt.
-
-[1
+ [1
 
 {/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./graph
 ics/halfLogo.pdf>] (./main.toc)
-<graphics/polloPallido.pdf, id=43, 406.51875pt x 406.51875pt>
+<graphics/polloPallido.pdf, id=31, 406.51875pt x 406.51875pt>
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
 Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 70.
@@ -1351,7 +1355,7 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 70--70
 [2
 
  <./graphics/polloPallido.pdf>]
-<graphics/vector-space.png, id=55, 487.8225pt x 438.63875pt>
+<graphics/vector-space.png, id=43, 487.8225pt x 438.63875pt>
 File: graphics/vector-space.png Graphic file (type png)
 <use graphics/vector-space.png>
 Package pdftex.def Info: graphics/vector-space.png  used on input line 80.
@@ -1384,7 +1388,7 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 80--80
 [4
 
 ]
-<graphics/before.png, id=70, 633.36626pt x 577.15625pt>
+<graphics/before.png, id=59, 633.36626pt x 577.15625pt>
 File: graphics/before.png Graphic file (type png)
 <use graphics/before.png>
 Package pdftex.def Info: graphics/before.png  used on input line 99.
@@ -1401,7 +1405,7 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 99--99
 [5
 
  <./graphics/before.png>]
-<graphics/after.png, id=78, 633.36626pt x 575.14874pt>
+<graphics/after.png, id=67, 633.36626pt x 575.14874pt>
 File: graphics/after.png Graphic file (type png)
 <use graphics/after.png>
 Package pdftex.def Info: graphics/after.png  used on input line 99.
@@ -1430,7 +1434,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 119
 (/usr/local/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<graphics/support vectors.jpg, id=86, 651.43375pt x 543.02875pt>
+<graphics/support vectors.jpg, id=75, 651.43375pt x 543.02875pt>
 File: graphics/support vectors.jpg Graphic file (type jpg)
 <use graphics/support vectors.jpg>
 Package pdftex.def Info: graphics/support vectors.jpg  used on input line 119.
@@ -1559,7 +1563,7 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 169--169
 [16
 
 ]
-<graphics/slack.jpg, id=155, 2371.86125pt x 2371.86125pt>
+<graphics/slack.jpg, id=144, 2371.86125pt x 2371.86125pt>
 File: graphics/slack.jpg Graphic file (type jpg)
 <use graphics/slack.jpg>
 Package pdftex.def Info: graphics/slack.jpg  used on input line 185.
@@ -1592,7 +1596,7 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 185--185
 [18
 
 ]
-<graphics/kernel.jpg, id=169, 722.7pt x 288.07625pt>
+<graphics/kernel.jpg, id=158, 722.7pt x 288.07625pt>
 File: graphics/kernel.jpg Graphic file (type jpg)
 <use graphics/kernel.jpg>
 Package pdftex.def Info: graphics/kernel.jpg  used on input line 200.
@@ -1785,7 +1789,7 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 269--269
 [33
 
 ]
-<graphics/k-means.png, id=268, 1011.78pt x 678.535pt>
+<graphics/k-means.png, id=259, 1011.78pt x 678.535pt>
 File: graphics/k-means.png Graphic file (type png)
 <use graphics/k-means.png>
 Package pdftex.def Info: graphics/k-means.png  used on input line 277.
@@ -1802,7 +1806,7 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 277--277
 [34
 
  <./graphics/k-means.png>]
-<graphics/hybSys entire.png, id=276, 835.12pt x 502.87875pt>
+<graphics/hybSys entire.png, id=267, 835.12pt x 502.87875pt>
 File: graphics/hybSys entire.png Graphic file (type png)
 <use graphics/hybSys entire.png>
 Package pdftex.def Info: graphics/hybSys entire.png  used on input line 287.
@@ -1835,7 +1839,7 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 287--287
 [36
 
 ]
-<graphics/hybSys top.png, id=291, 1248.665pt x 335.2525pt>
+<graphics/hybSys top.png, id=281, 1248.665pt x 335.2525pt>
 File: graphics/hybSys top.png Graphic file (type png)
 <use graphics/hybSys top.png>
 Package pdftex.def Info: graphics/hybSys top.png  used on input line 308.
@@ -1884,15 +1888,11 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 308--308
 [39
 
 ]
-<graphics/hybSys bottom.png, id=312, 1249.66875pt x 426.59375pt>
+<graphics/hybSys bottom.png, id=303, 1249.66875pt x 426.59375pt>
 File: graphics/hybSys bottom.png Graphic file (type png)
 <use graphics/hybSys bottom.png>
 Package pdftex.def Info: graphics/hybSys bottom.png  used on input line 325.
 (pdftex.def)             Requested size: 224.93066pt x 76.78355pt.
-
-
-LaTeX Warning: Citation 'article1' on page 40 undefined on input line 325.
-
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
 Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 325.
@@ -1909,10 +1909,6 @@ File: graphics/hybSys bottom.png Graphic file (type png)
 <use graphics/hybSys bottom.png>
 Package pdftex.def Info: graphics/hybSys bottom.png  used on input line 325.
 (pdftex.def)             Requested size: 224.93066pt x 76.78355pt.
-
-
-LaTeX Warning: Citation 'article1' on page 41 undefined on input line 325.
-
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
 Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 325.
@@ -1929,10 +1925,6 @@ File: graphics/hybSys bottom.png Graphic file (type png)
 <use graphics/hybSys bottom.png>
 Package pdftex.def Info: graphics/hybSys bottom.png  used on input line 325.
 (pdftex.def)             Requested size: 224.93066pt x 76.78355pt.
-
-
-LaTeX Warning: Citation 'article1' on page 42 undefined on input line 325.
-
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
 Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 325.
@@ -1949,10 +1941,6 @@ File: graphics/hybSys bottom.png Graphic file (type png)
 <use graphics/hybSys bottom.png>
 Package pdftex.def Info: graphics/hybSys bottom.png  used on input line 325.
 (pdftex.def)             Requested size: 224.93066pt x 76.78355pt.
-
-
-LaTeX Warning: Citation 'article1' on page 43 undefined on input line 325.
-
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
 Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 325.
@@ -1965,9 +1953,6 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 325--325
 [43
 
 ]
-
-LaTeX Warning: Empty bibliography on input line 329.
-
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
 Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 329.
@@ -1993,25 +1978,29 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 329--329
 
 LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: DACE5D6C6253E85FD4C3A8541A416639;570.
 
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  6A7A2397D7B32A1230EB27169C76451D;663.
+
+Package biblatex Warning: Please rerun LaTeX.
 
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34172 strings out of 478268
- 680195 string characters out of 5846347
- 1338204 words of memory out of 5000000
- 51642 multiletter control sequences out of 15000+600000
+ 34218 strings out of 478268
+ 681338 string characters out of 5846347
+ 1335818 words of memory out of 5000000
+ 51684 multiletter control sequences out of 15000+600000
  510689 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,13n,122p,737b,801s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,13n,122p,737b,1330s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
 exlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/2022/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/tex
@@ -2030,10 +2019,10 @@ c/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/u
 rw/palatino/uplb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/pala
 tino/uplr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/palatino/up
 lri8a.pfb>
-Output written on main.pdf (44 pages, 1651029 bytes).
+Output written on main.pdf (44 pages, 1652400 bytes).
 PDF statistics:
- 439 PDF objects out of 1000 (max. 8388607)
- 332 compressed objects within 4 object streams
- 92 named destinations out of 1000 (max. 500000)
- 127 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 435 PDF objects out of 1000 (max. 8388607)
+ 328 compressed objects within 4 object streams
+ 94 named destinations out of 1000 (max. 500000)
+ 103 words of extra memory for PDF output out of 10000 (max. 10000000)
 
