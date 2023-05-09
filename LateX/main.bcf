@@ -2358,11 +2358,12 @@
     <bcf:citekey order="9">kmeans</bcf:citekey>
     <bcf:citekey order="10">hybrid</bcf:citekey>
     <bcf:citekey order="11">hybrid</bcf:citekey>
-    <bcf:citekey order="12">tut</bcf:citekey>
-    <bcf:citekey order="13">svm</bcf:citekey>
-    <bcf:citekey order="14">kernel</bcf:citekey>
-    <bcf:citekey order="15">kmeans</bcf:citekey>
-    <bcf:citekey order="16">hybrid</bcf:citekey>
+    <bcf:citekey order="12">hybrid</bcf:citekey>
+    <bcf:citekey order="13">tut</bcf:citekey>
+    <bcf:citekey order="14">svm</bcf:citekey>
+    <bcf:citekey order="15">kernel</bcf:citekey>
+    <bcf:citekey order="16">kmeans</bcf:citekey>
+    <bcf:citekey order="17">hybrid</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
