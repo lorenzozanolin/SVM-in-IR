@@ -151,15 +151,15 @@
 \end{frame}
 
 \begin{frame}{Cost Function}
-    \only<1->{Remembering we want to classify documents, our goal is to find specific $b$ s.t.
-    given a document $x$ belonging to class $y$ the decision boundary behave the following:
+    \only<1->{Remembering that we want to classify documents, our goal is to find specific $b$ s.t.
+    given a document $x$ belonging to class $y$ the decision boundary behaves as follows:
     \begin{equation}
         \begin{cases}
           {b}^{T}x + a \geq 1\qquad if\ y = 1\\
           {b}^{T}x + a \leq -1\qquad if\ y = -1\\
         \end{cases}\
     \end{equation}}
-    \uncover<2->{We can define the \textit{cost function} as a system of equations.
+    \uncover<2->{We can define the \textit{cost function} as a system of equations:
     \begin{equation}
         \begin{cases}
           \min_{b,a} \frac{\sqrt{{b}^{T}b}}{2}\\
@@ -180,7 +180,10 @@
               \min_{b,a} \frac{\sqrt{{b}^{T}b}}{2} + C  \sum_{i} \xi_i\\
               subject\ to \quad y_i(b^{T}x_i + a)\geq1-\xi_i\quad and\ \xi_i>0 \quad \forall x_i\\
             \end{cases}\
-        \end{equation}}
+        \end{equation}
+    \vfill{5mm}
+    Intuitively, $C$ represents how much the penalty counts.
+    }
 \end{frame}
 
 \begin{frame}{Visualization}
