@@ -312,7 +312,7 @@
         \end{figure}
     }
     \uncover<2->{
-        First part consists of text pre-processing, followed by a vector representation of each document.\\ Next, there is the clustering phase.\\
+        First part consists of text pre-processing, followed by a vector representation of each document using stemmed terms.\\ Next, there is the clustering phase.\\
     }
     \vspace{5mm}
     \uncover<3->{
@@ -337,9 +337,9 @@
         A given user query is first stemmed and represented by a vector (as for documents).\\  
     }
     \vspace{3.5mm}
-    \uncover<3->{Then, SVM are used to classify queries; for each cluster $C_i$ there will be an $SVM_i$ responsible of determining the membership of each query $q_j$ to it.\\}
+    \uncover<3->{Then, SVMs are used to classify queries; for each cluster $C_i$ there will be an $SVM_i$ responsible of determining the membership of each query $q_j$ to it (giving a probability $p_i$).\\}
     \vspace{3.5mm}
-    \uncover<4->{So, this process allows the selection of documents from the returned class to return first.}
+    \uncover<4->{So, this process allows the selection of documents from the correct cluster (the one with the highest $p_i$).}
 
 \end{frame}
 
