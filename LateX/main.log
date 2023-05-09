@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.20)  8 MAY 2023 17:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.20)  9 MAY 2023 17:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**main
+**main.tex
 (./main.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-02-24>
@@ -1995,13 +1995,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34253 strings out of 478268
- 682248 string characters out of 5846347
- 1336063 words of memory out of 5000000
- 51712 multiletter control sequences out of 15000+600000
+ 34255 strings out of 478268
+ 682264 string characters out of 5846347
+ 1336295 words of memory out of 5000000
+ 51714 multiletter control sequences out of 15000+600000
  512939 words of font info for 95 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,13n,122p,733b,1474s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,13n,122p,737b,1474s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
 exlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/2022/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/tex
@@ -2020,7 +2020,7 @@ c/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/u
 rw/palatino/uplb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/pala
 tino/uplr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/palatino/up
 lri8a.pfb>
-Output written on main.pdf (45 pages, 1659218 bytes).
+Output written on main.pdf (45 pages, 1659344 bytes).
 PDF statistics:
  472 PDF objects out of 1000 (max. 8388607)
  364 compressed objects within 4 object streams
