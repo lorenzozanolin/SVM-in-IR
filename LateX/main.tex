@@ -251,14 +251,14 @@
 
 \section{SVM use in IR}
 \begin{frame}{Pratical application}
-    \only<1->{An hybrid technique used in the IR field will be presented; it uses two components: 
+    \only<1->{A hybrid technique used in the IR field will be presented; it uses two components: 
     \begin{itemize}
         \item \textbf{K-Means}: model for \textit{unsupervised classification};
         \item \textbf{SVM}: model for \textit{supervised classification}.
     \end{itemize}
     }
     \vspace{5mm}
-    \uncover<2->{K-means algorithm is one of the most used clustering algorithms. It consists of partitioning unlabeled objects into k classes, where k is no predefined.\\ A brief explanation will follow.}
+    \uncover<2->{K-means algorithm is one of the most used clustering algorithms. It consists of partitioning unlabeled objects into k classes, where k is not predefined.\\ A brief explanation will follow.}
 \end{frame}
 
 \begin{frame}{K-means}
@@ -312,11 +312,11 @@
         \end{figure}
     }
     \uncover<2->{
-        First part consist of text pre-processing, followed by a vector representation of each document.\\ Next, there is the clustering phase.\\
+        First part consists of text pre-processing, followed by a vector representation of each document.\\ Next, there is the clustering phase.\\
     }
     \vspace{5mm}
     \uncover<3->{
-        Using \textit{k-means}, documents are classified into classes of similar vectors according to the retained terms and the similarity used.\\
+        Using \textit{k-means}, documents are classified into classes of similar vectors according to the selected terms (dimensions).\\
     }
     \vspace{5mm}
     \uncover<3->{
