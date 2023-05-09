@@ -1,11 +1,11 @@
 # Fdb version 3
-["biber main"] 1683644542 "main.bcf" "main.bbl" "main" 1683644550
+["biber main"] 1683646639 "main.bcf" "main.bbl" "main" 1683647455
   "bibliography.bib" 1683558522 1376 aaae871c891bdc0d5db927c575865298 ""
-  "main.bcf" 1683644550 107882 b5fbeb7186bcb8f0773309e3330579c7 "pdflatex"
+  "main.bcf" 1683647455 107882 b5fbeb7186bcb8f0773309e3330579c7 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
-["pdflatex"] 1683644547 "main.tex" "main.pdf" "main" 1683644550
+["pdflatex"] 1683647452 "main.tex" "main.pdf" "main" 1683647455
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1254269338 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -269,6 +269,7 @@
   "beamerthemeuniud.sty" 1683273720 2661 ca7f05b401ce792625ceda5d776aaddb ""
   "graphics/after.png" 1683273720 94161 8cf63506c3c1efd51c79a20848a1ebce ""
   "graphics/before.png" 1683273720 76594 cd87ce982ab7f74975e3864a0d3261b0 ""
+  "graphics/distance.png" 1683647379 114783 3bfd7b64f85d1cd40701ce130a5736e4 ""
   "graphics/halfLogo.pdf" 1683273720 51188 f7c3f5fcf47be1e6c0dd95a453d873f3 ""
   "graphics/hybSys bottom.png" 1683382425 242378 0c5b64c83d5cb02f046e969203417221 ""
   "graphics/hybSys entire.png" 1683380791 75867 7ba00e04b09dd89758ae4490e5a5b819 ""
@@ -279,13 +280,13 @@
   "graphics/slack.jpg" 1683273720 545357 5ce0c23fb1f01667644fd6f28d11361f ""
   "graphics/support vectors.jpg" 1683273720 36851 107ecf6cc1186088c74f0db814d66ac1 ""
   "graphics/vector-space.png" 1683273720 26433 394fe0e5b47c0f55378178a2d8126377 ""
-  "main.aux" 1683644550 5859 81deaea426c908848ad7fc5146e60cd3 "pdflatex"
-  "main.bbl" 1683644543 7937 0c8ce35e73ed96be9926fdc66e9c086e "biber main"
-  "main.nav" 1683644550 2767 b4911f074bd8879676d8de509d257c5c "pdflatex"
-  "main.out" 1683644550 663 6a7a2397d7b32a1230eb27169c76451d "pdflatex"
-  "main.run.xml" 1683644550 2307 fa280d158a7733084a6a66e2106e4193 "pdflatex"
-  "main.tex" 1683644526 12513 0154cd914248dd674ab3a923b6d2a0e5 ""
-  "main.toc" 1683644550 191 fb2b9654780562e3ec34f6b937db5132 "pdflatex"
+  "main.aux" 1683647455 5987 d196e4ade871f977c8ff5caa64652583 "pdflatex"
+  "main.bbl" 1683646640 7937 0c8ce35e73ed96be9926fdc66e9c086e "biber main"
+  "main.nav" 1683647455 2859 edb262d81010543d751527d772aa33a6 "pdflatex"
+  "main.out" 1683647455 663 6a7a2397d7b32a1230eb27169c76451d "pdflatex"
+  "main.run.xml" 1683647455 2307 fa280d158a7733084a6a66e2106e4193 "pdflatex"
+  "main.tex" 1683647450 12961 95a431ed7488cadde860c51b8c18bdb6 ""
+  "main.toc" 1683647455 191 49a74db5df91f90f074c8505cc682392 "pdflatex"
   (generated)
   "main.aux"
   "main.bcf"

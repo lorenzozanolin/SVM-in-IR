@@ -101,7 +101,7 @@
 
 \begin{frame}{Support Vectors}
     \only<1->{In the previous example the \textit{decision boundary} is a line, represented by the equation~$a + b{t}_{1} + c{t}_{2} = 0$.\\  
-    We can introduce two parallels hyperplanes (lines) to the decision boundary, called \textit{support vectors} whose equations are} 
+    We can introduce two \textit{parallels} hyperplanes (lines) to the decision boundary, called \textit{support vectors} whose equations are} 
     \only<1->{
     \begin{equation}
         \begin{cases}
@@ -129,10 +129,25 @@
     
     \uncover<2->{Intuitively, we can define the \textit{margin} of the two support vectors as the distance between them.\\}
     \vspace{5mm} %5mm vertical space
-    \uncover<3->{We can consider two points $x_1,x_2$ that lie respectively on the two support vectors, their distance is~$\lambda\lVert b \rVert = \frac{2}{\sqrt{{b}^{T}b}}$.\\ 
+    \uncover<3->{ Consider an arbitrary point $x_1$ that lies on support vector $s_1$.\\ Since $s_1,s_2$ are parallel, consider the closest point to $x_1$ belonging to $s_2$, say $x_2$.}
     \vspace{5mm} %5mm vertical space
-    SVM \cite{tut,svm} are used to find the \textit{maximum margin linear classifier}, thus we want to maximize the margin.}
      
+\end{frame}
+
+\begin{frame}{Margin}
+    \only<1->{
+        \begin{figure}[b]
+            \includegraphics[scale=0.25]{graphics/distance.png}
+        \end{figure}
+    }
+    \uncover<2->{Their distance is~$\lambda\lVert b \rVert = \frac{2}{\sqrt{{b}^{T}b}}$.\\
+    \vspace{5mm}
+    Vector $\lambda b$ represents the distance between the two margins.}
+    \vspace{5mm} %5mm vertical space
+    \uncover<3->{
+    SVM \cite{tut,svm} are used to find the \textit{maximum margin linear classifier}, thus we want to maximize the margin.}
+    \vspace{5mm}
+
 \end{frame}
 
 \begin{frame}{Cost Function}
