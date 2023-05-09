@@ -145,7 +145,7 @@
     Vector $\lambda b$ represents the distance between the two margins.}
     \vspace{5mm} %5mm vertical space
     \uncover<3->{
-    SVM \cite{tut,svm} are used to find the \textit{maximum margin linear classifier}, thus we want to maximize the margin.}
+    SVM~\cite{tut,svm} are used to find the \textit{maximum margin linear classifier}, thus we want to maximize the margin.}
     \vspace{5mm}
 
 \end{frame}
@@ -181,7 +181,6 @@
               subject\ to \quad y_i(b^{T}x_i + a)\geq1-\xi_i\quad and\ \xi_i>0 \quad \forall x_i\\
             \end{cases}\
         \end{equation}
-    \vfill{5mm}
     Intuitively, $C$ represents how much the penalty counts.
     }
 \end{frame}
@@ -221,14 +220,16 @@
     
     \uncover<1->{Consider the function $\phi : \mathbb{R}^3 \mapsto \mathbb{R}^{10}$ used to map points in a new vector space. Calculating the \textit{similarity} ${\phi(x_i)}^T\phi(x_j)$ between each point may be intractable.\\}
     \vspace{5mm}
-    \uncover<2->{Here \textit{Kernel Trick} \cite{kernel} comes handy.\\}
-    \vspace{5mm}
+    \uncover<2->{Here \textit{Kernel Trick}~\cite{kernel} comes handy.\\}
     \uncover<3->{It consists of a simple linear algebra reformulation, 
         \begin{equation}
             {\phi(x_i)}^{T}\phi(x_j) = K(x_i,x_j) = {(1+{x_i}^{T}x_j)}^2.
         \end{equation}\\
     }
-    
+    \uncover<4->{
+        $K$ is a \textit{kernel function} that operates on the lower dimension vectors $x_i$ and $x_j$ to produce a value equivalent to the dot- product of the higher-dimensional vectors.\\
+    }
+    \vspace{5mm}
     \uncover<4->{Instead of doing the complex computations in the 10-dimensional space, we reach the same result within the 3-dimensional space by calculating the dot product.}
 
 
@@ -261,7 +262,7 @@
 \end{frame}
 
 \begin{frame}{K-means}
-    \only<1->{The aim is to create clusters that contain \textit{similar documents}. Given a training set ${x^{(1)},x^{(2)},\ldots,x^{(m)}}$, the algorithm \cite{kmeans} used is the following:\\}
+    \only<1->{The aim is to create clusters that contain \textit{similar documents}. Given a training set ${x^{(1)},x^{(2)},\ldots,x^{(m)}}$, the algorithm~\cite{kmeans} used is the following:\\}
     \uncover<2->{
         \begin{algorithm}[H]\small
             %\caption{K-Means}
@@ -295,7 +296,7 @@
 \end{frame}
 
 \begin{frame}{Hybrid IR System}
-    \only<1->{The proposed system \cite{hybrid} can be summarized by the following figure:}
+    \only<1->{The proposed system~\cite{hybrid} can be summarized by the following figure:}
     \uncover<2->{
         \begin{figure}[]
             \includegraphics[scale=0.29]{graphics/hybSys entire.png}

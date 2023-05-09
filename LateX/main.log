@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.20)  9 MAY 2023 17:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.6.20)  9 MAY 2023 18:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1578,10 +1578,10 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 170--170
 ]
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 184.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 186.
 (pdftex.def)             Requested size: 24.18501pt x 24.17917pt.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 184--184
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 186--186
 [][]  
  []
 
@@ -1590,10 +1590,10 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 184--184
 ]
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 184.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 186.
 (pdftex.def)             Requested size: 24.18501pt x 24.17917pt.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 184--184
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 186--186
 [][]  
  []
 
@@ -1602,10 +1602,10 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 184--184
 ]
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 184.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 186.
 (pdftex.def)             Requested size: 24.18501pt x 24.17917pt.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 184--184
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 186--186
 [][]  
  []
 
@@ -1615,14 +1615,14 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 184--184
 <graphics/slack.jpg, id=189, 2371.86125pt x 2371.86125pt>
 File: graphics/slack.jpg Graphic file (type jpg)
 <use graphics/slack.jpg>
-Package pdftex.def Info: graphics/slack.jpg  used on input line 200.
+Package pdftex.def Info: graphics/slack.jpg  used on input line 202.
 (pdftex.def)             Requested size: 130.43468pt x 130.43468pt.
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 200.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 202.
 (pdftex.def)             Requested size: 24.18501pt x 24.17917pt.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 200--200
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 202--202
 [][]  
  []
 
@@ -1631,14 +1631,14 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 200--200
  <./graphics/slack.jpg>]
 File: graphics/slack.jpg Graphic file (type jpg)
 <use graphics/slack.jpg>
-Package pdftex.def Info: graphics/slack.jpg  used on input line 200.
+Package pdftex.def Info: graphics/slack.jpg  used on input line 202.
 (pdftex.def)             Requested size: 130.43468pt x 130.43468pt.
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 200.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 202.
 (pdftex.def)             Requested size: 24.18501pt x 24.17917pt.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 200--200
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 202--202
 [][]  
  []
 
@@ -1648,14 +1648,14 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 200--200
 <graphics/kernel.jpg, id=202, 722.7pt x 288.07625pt>
 File: graphics/kernel.jpg Graphic file (type jpg)
 <use graphics/kernel.jpg>
-Package pdftex.def Info: graphics/kernel.jpg  used on input line 215.
+Package pdftex.def Info: graphics/kernel.jpg  used on input line 217.
 (pdftex.def)             Requested size: 289.07487pt x 115.22844pt.
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 215.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 217.
 (pdftex.def)             Requested size: 24.18501pt x 24.17917pt.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 215--215
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 217--217
 [][]  
  []
 
@@ -1664,14 +1664,14 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 215--215
  <./graphics/kernel.jpg>]
 File: graphics/kernel.jpg Graphic file (type jpg)
 <use graphics/kernel.jpg>
-Package pdftex.def Info: graphics/kernel.jpg  used on input line 215.
+Package pdftex.def Info: graphics/kernel.jpg  used on input line 217.
 (pdftex.def)             Requested size: 289.07487pt x 115.22844pt.
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 215.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 217.
 (pdftex.def)             Requested size: 24.18501pt x 24.17917pt.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 215--215
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 217--217
 [][]  
  []
 
@@ -1680,14 +1680,14 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 215--215
 ]
 File: graphics/kernel.jpg Graphic file (type jpg)
 <use graphics/kernel.jpg>
-Package pdftex.def Info: graphics/kernel.jpg  used on input line 215.
+Package pdftex.def Info: graphics/kernel.jpg  used on input line 217.
 (pdftex.def)             Requested size: 289.07487pt x 115.22844pt.
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 215.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 217.
 (pdftex.def)             Requested size: 24.18501pt x 24.17917pt.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 215--215
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 217--217
 [][]  
  []
 
@@ -1696,10 +1696,10 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 215--215
 ]
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 234.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 238.
 (pdftex.def)             Requested size: 24.18501pt x 24.17917pt.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 234--234
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 238--238
 [][]  
  []
 
@@ -1708,10 +1708,10 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 234--234
 ]
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 234.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 238.
 (pdftex.def)             Requested size: 24.18501pt x 24.17917pt.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 234--234
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 238--238
 [][]  
  []
 
@@ -1720,10 +1720,10 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 234--234
 ]
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 234.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 238.
 (pdftex.def)             Requested size: 24.18501pt x 24.17917pt.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 234--234
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 238--238
 [][]  
  []
 
@@ -1732,10 +1732,10 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 234--234
 ]
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 234.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 238.
 (pdftex.def)             Requested size: 24.18501pt x 24.17917pt.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 234--234
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 238--238
 [][]  
  []
 
@@ -1744,10 +1744,10 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 234--234
 ]
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 246.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 250.
 (pdftex.def)             Requested size: 24.18501pt x 24.17917pt.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 246--246
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 250--250
 [][]  
  []
 
@@ -1756,10 +1756,10 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 246--246
 ]
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 246.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 250.
 (pdftex.def)             Requested size: 24.18501pt x 24.17917pt.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 246--246
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 250--250
 [][]  
  []
 
@@ -1768,10 +1768,10 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 246--246
 ]
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 246.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 250.
 (pdftex.def)             Requested size: 24.18501pt x 24.17917pt.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 246--246
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 250--250
 [][]  
  []
 
@@ -1780,10 +1780,10 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 246--246
 ]
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 246.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 250.
 (pdftex.def)             Requested size: 24.18501pt x 24.17917pt.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 246--246
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 250--250
 [][]  
  []
 
@@ -1792,10 +1792,10 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 246--246
 ]
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 258.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 262.
 (pdftex.def)             Requested size: 24.18501pt x 24.17917pt.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 258--258
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 262--262
 [][]  
  []
 
@@ -1804,10 +1804,10 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 258--258
 ]
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 258.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 262.
 (pdftex.def)             Requested size: 24.18501pt x 24.17917pt.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 258--258
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 262--262
 [][]  
  []
 
@@ -1816,10 +1816,10 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 258--258
 ]
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 284.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 288.
 (pdftex.def)             Requested size: 24.18501pt x 24.17917pt.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 284--284
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 288--288
 [][]  
  []
 
@@ -1828,10 +1828,10 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 284--284
 ]
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 284.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 288.
 (pdftex.def)             Requested size: 24.18501pt x 24.17917pt.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 284--284
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 288--288
 [][]  
  []
 
@@ -1841,14 +1841,14 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 284--284
 <graphics/k-means.png, id=309, 1011.78pt x 678.535pt>
 File: graphics/k-means.png Graphic file (type png)
 <use graphics/k-means.png>
-Package pdftex.def Info: graphics/k-means.png  used on input line 292.
+Package pdftex.def Info: graphics/k-means.png  used on input line 296.
 (pdftex.def)             Requested size: 293.40868pt x 196.77011pt.
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 292.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 296.
 (pdftex.def)             Requested size: 24.18501pt x 24.17917pt.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 292--292
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 296--296
 [][]  
  []
 
@@ -1858,14 +1858,14 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 292--292
 <graphics/hybSys entire.png, id=319, 835.12pt x 502.87875pt>
 File: graphics/hybSys entire.png Graphic file (type png)
 <use graphics/hybSys entire.png>
-Package pdftex.def Info: graphics/hybSys entire.png  used on input line 302.
+Package pdftex.def Info: graphics/hybSys entire.png  used on input line 306.
 (pdftex.def)             Requested size: 242.17859pt x 145.8311pt.
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 302.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 306.
 (pdftex.def)             Requested size: 24.18501pt x 24.17917pt.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 302--302
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 306--306
 [][]  
  []
 
@@ -1874,14 +1874,14 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 302--302
  <./graphics/hybSys entire.png>]
 File: graphics/hybSys entire.png Graphic file (type png)
 <use graphics/hybSys entire.png>
-Package pdftex.def Info: graphics/hybSys entire.png  used on input line 302.
+Package pdftex.def Info: graphics/hybSys entire.png  used on input line 306.
 (pdftex.def)             Requested size: 242.17859pt x 145.8311pt.
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 302.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 306.
 (pdftex.def)             Requested size: 24.18501pt x 24.17917pt.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 302--302
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 306--306
 [][]  
  []
 
@@ -1891,14 +1891,14 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 302--302
 <graphics/hybSys top.png, id=335, 1248.665pt x 335.2525pt>
 File: graphics/hybSys top.png Graphic file (type png)
 <use graphics/hybSys top.png>
-Package pdftex.def Info: graphics/hybSys top.png  used on input line 323.
+Package pdftex.def Info: graphics/hybSys top.png  used on input line 327.
 (pdftex.def)             Requested size: 249.72858pt x 67.0493pt.
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 323.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 327.
 (pdftex.def)             Requested size: 24.18501pt x 24.17917pt.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 323--323
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 327--327
 [][]  
  []
 
@@ -1907,14 +1907,14 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 323--323
  <./graphics/hybSys top.png>]
 File: graphics/hybSys top.png Graphic file (type png)
 <use graphics/hybSys top.png>
-Package pdftex.def Info: graphics/hybSys top.png  used on input line 323.
+Package pdftex.def Info: graphics/hybSys top.png  used on input line 327.
 (pdftex.def)             Requested size: 249.72858pt x 67.0493pt.
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 323.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 327.
 (pdftex.def)             Requested size: 24.18501pt x 24.17917pt.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 323--323
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 327--327
 [][]  
  []
 
@@ -1923,14 +1923,14 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 323--323
 ]
 File: graphics/hybSys top.png Graphic file (type png)
 <use graphics/hybSys top.png>
-Package pdftex.def Info: graphics/hybSys top.png  used on input line 323.
+Package pdftex.def Info: graphics/hybSys top.png  used on input line 327.
 (pdftex.def)             Requested size: 249.72858pt x 67.0493pt.
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 323.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 327.
 (pdftex.def)             Requested size: 24.18501pt x 24.17917pt.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 323--323
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 327--327
 [][]  
  []
 
@@ -1940,14 +1940,14 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 323--323
 <graphics/hybSys bottom.png, id=355, 1249.66875pt x 426.59375pt>
 File: graphics/hybSys bottom.png Graphic file (type png)
 <use graphics/hybSys bottom.png>
-Package pdftex.def Info: graphics/hybSys bottom.png  used on input line 340.
+Package pdftex.def Info: graphics/hybSys bottom.png  used on input line 344.
 (pdftex.def)             Requested size: 224.93066pt x 76.78355pt.
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 340.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 344.
 (pdftex.def)             Requested size: 24.18501pt x 24.17917pt.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 340--340
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 344--344
 [][]  
  []
 
@@ -1956,14 +1956,14 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 340--340
  <./graphics/hybSys bottom.png>]
 File: graphics/hybSys bottom.png Graphic file (type png)
 <use graphics/hybSys bottom.png>
-Package pdftex.def Info: graphics/hybSys bottom.png  used on input line 340.
+Package pdftex.def Info: graphics/hybSys bottom.png  used on input line 344.
 (pdftex.def)             Requested size: 224.93066pt x 76.78355pt.
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 340.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 344.
 (pdftex.def)             Requested size: 24.18501pt x 24.17917pt.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 340--340
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 344--344
 [][]  
  []
 
@@ -1972,14 +1972,14 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 340--340
 ]
 File: graphics/hybSys bottom.png Graphic file (type png)
 <use graphics/hybSys bottom.png>
-Package pdftex.def Info: graphics/hybSys bottom.png  used on input line 340.
+Package pdftex.def Info: graphics/hybSys bottom.png  used on input line 344.
 (pdftex.def)             Requested size: 224.93066pt x 76.78355pt.
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 340.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 344.
 (pdftex.def)             Requested size: 24.18501pt x 24.17917pt.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 340--340
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 344--344
 [][]  
  []
 
@@ -1988,14 +1988,14 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 340--340
 ]
 File: graphics/hybSys bottom.png Graphic file (type png)
 <use graphics/hybSys bottom.png>
-Package pdftex.def Info: graphics/hybSys bottom.png  used on input line 340.
+Package pdftex.def Info: graphics/hybSys bottom.png  used on input line 344.
 (pdftex.def)             Requested size: 224.93066pt x 76.78355pt.
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 340.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 344.
 (pdftex.def)             Requested size: 24.18501pt x 24.17917pt.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 340--340
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 344--344
 [][]  
  []
 
@@ -2004,10 +2004,10 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 340--340
 ]
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 344.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 348.
 (pdftex.def)             Requested size: 24.18501pt x 24.17917pt.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 344--344
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 348--348
 [][]  
  []
 
@@ -2016,10 +2016,10 @@ Overfull \hbox (56.90549pt too wide) in paragraph at lines 344--344
 ]
 File: graphics/polloPallido.pdf Graphic file (type pdf)
 <use graphics/polloPallido.pdf>
-Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 344.
+Package pdftex.def Info: graphics/polloPallido.pdf  used on input line 348.
 (pdftex.def)             Requested size: 24.18501pt x 24.17917pt.
 
-Overfull \hbox (56.90549pt too wide) in paragraph at lines 344--344
+Overfull \hbox (56.90549pt too wide) in paragraph at lines 348--348
 [][]  
  []
 
@@ -2069,7 +2069,7 @@ c/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/u
 rw/palatino/uplb8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/pala
 tino/uplr8a.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/urw/palatino/up
 lri8a.pfb>
-Output written on main.pdf (48 pages, 1706926 bytes).
+Output written on main.pdf (48 pages, 1707875 bytes).
 PDF statistics:
  493 PDF objects out of 1000 (max. 8388607)
  380 compressed objects within 4 object streams
