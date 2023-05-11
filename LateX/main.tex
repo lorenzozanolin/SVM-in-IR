@@ -54,7 +54,7 @@
 
 
 \title[Support Vector Machines]{Support Vector Machines and their use in IR}
-\date[May 2023]{May x, 2023}
+\date[May 2023]{May 12, 2023}
 \author[Lorenzo Zanolin]{
   Lorenzo Zanolin.
   \pdfnewline\texttt{lorenzo.zanolin@spes.uniud.it}
@@ -140,9 +140,9 @@
             \includegraphics[scale=0.25]{graphics/distance.png}
         \end{figure}
     }
-    \uncover<2->{Their distance is~$\lambda\lVert b \rVert = \frac{2}{\sqrt{{b}^{T}b}}$.\\
+    \uncover<2->{Their distance is~$\lambda\lVert w \rVert = \frac{2}{\sqrt{{w}^{T}w}}$.\\
     \vspace{5mm}
-    Vector $\lambda b$ represents the distance between the two margins.}
+    Vector $\lambda w$ represents the distance between the two margins.}
     \vspace{5mm} %5mm vertical space
     \uncover<3->{
     SVM~\cite{tut,svm} are used to find the \textit{maximum margin linear classifier}, thus we want to maximize the margin.}
@@ -220,7 +220,7 @@
     
     \uncover<1->{Consider the function $\phi : \mathbb{R}^3 \mapsto \mathbb{R}^{10}$ used to map points in a new vector space. Calculating the \textit{similarity} ${\phi(x_i)}^T\phi(x_j)$ between each point may be intractable.\\}
     \vspace{5mm}
-    \uncover<2->{Here \textit{Kernel Trick}~\cite{kernel} comes handy.\\}
+    \uncover<2->{Here the \textit{Kernel Trick}~\cite{kernel} comes in handy.\\}
     \uncover<3->{It consists of a simple linear algebra reformulation, 
         \begin{equation}
             {\phi(x_i)}^{T}\phi(x_j) = K(x_i,x_j) = {(1+{x_i}^{T}x_j)}^2.
@@ -258,7 +258,7 @@
     \end{itemize}
     }
     \vspace{5mm}
-    \uncover<2->{K-means algorithm is one of the most used clustering algorithms. It consists of partitioning unlabeled objects into k classes, where k is not predefined.\\ A brief explanation will follow.}
+    \uncover<2->{K-means algorithm is one of the most used clustering algorithms. It consists of partitioning unlabeled objects into k classes, where k is fixed beforehand.\\ A brief explanation will follow.}
 \end{frame}
 
 \begin{frame}{K-means}
